@@ -3,17 +3,61 @@
 
 <Patch>
 
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Plant_TreeCocoa"]/plant/harvestedThingDef</xpath>
-	<value>
-	  <harvestedThingDef>RawCocoa</harvestedThingDef>
-	</value>
-  </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeCocoa"]/plant/harvestedThingDef</xpath>
+		<value>
+			<harvestedThingDef>RawCocoa</harvestedThingDef>
+		</value>
+	</Operation>
 
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Plant_TreeCocoa"]/plant/harvestYield</xpath>
-	<value>
-	  <harvestYield>40</harvestYield>
-    </value>
-  </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeCocoa"]/plant/harvestYield</xpath>
+		<value>
+			<harvestYield>40</harvestYield>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeCocoa"]/description</xpath>
+		<value>
+			<description>A tropical tree that produces Cocoa, genetically engineered to survive in slightly less-warm climates.</description>
+		</value>
+	</Operation>
+  
+  	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>VGP Vegetable Garden</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					    <operations>
+						
+					   		<li Class="PatchOperationReplace">
+								<xpath>Defs/ThingDef[defName="Plantcocoa"]/plant/harvestedThingDef</xpath>
+								<value>
+									<harvestedThingDef>RawCocoa</harvestedThingDef>
+								</value>
+							</li>
+					   
+							<li Class="PatchOperationReplace">
+								<xpath>Defs/ThingDef[defName="Plantcocoa"]/plant/harvestYield</xpath>
+								<value>
+									<harvestYield>4</harvestYield>
+								</value>
+							</li>
+							
+							<li Class="PatchOperationReplace">
+								<xpath>Defs/ThingDef[defName="Plantcocoa"]/description</xpath>
+								<value>
+									<description>A tropical bush that produces Cocoa, genetically engineered to survive in slightly less-warm climates. Produces a lot less then the trees.</description>
+								</value>
+							</li>
+							
+						</operations>
+				</match>
+			</li>
+		</operations>
+	</Operation>
 </Patch>

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Realistic Chocolate Production 1.1</name>
+  <name>Realistic Chocolate Production Continued [1.0][1.1][1.2]</name>
   <author>troopersmith1 - CrunchyDuck, Oken</author>
 	<supportedVersions>
-	<li>1.0</li>
-	<li>1.1</li>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
 	<packageId>troopersmith1.RealisticChocolateProduction</packageId>
-  <description>Makes cocoa trees produce raw cocoa, that has to be prepared at a cooking station to make chocolate, or milk chocolate.
+  <description>
+  Makes cocoa trees produce raw cocoa, that has to be prepared at a cooking station to make chocolate, or milk chocolate.
+  
+  Also includes a patch for VGP's Cocoa Bush to have it also produce Cocoa instead of Chocolate.
   </description>
 </ModMetaData>
