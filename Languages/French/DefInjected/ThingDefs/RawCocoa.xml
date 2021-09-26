@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LanguageData>
+		<RawCocoa.label>cacao</RawCocoa.label>
+		<RawCocoa.description>Cacao brut récolté sur un cacaoyer. Doit être préparé dans une cuisinière pour prendre sa forme délicieuse et bien connue connue sous le nom de chocolat.</RawCocoa.description>
+
+		<MilkChocolate.label>chocolat au lait</MilkChocolate.label>
+		<MilkChocolate.description>Une délicieuse préparation de graines de cacao moulues avec du sucre et de la vanille, avec une touche de lait ajouté. Il répond au besoin de loisirs, mais il n'est pas très nutritif.\n\nLe chocolat au lait est un peu moins puissant que le chocolat ordinaire, mais peut être fabriqué en très grande quantité.</MilkChocolate.description>
+	</LanguageData>

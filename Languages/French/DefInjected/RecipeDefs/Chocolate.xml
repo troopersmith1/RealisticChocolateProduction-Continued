@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LanguageData>
+		<Make_Chocolate.label>faire du chocolat</Make_Chocolate.label>
+		<Make_Chocolate.description>Faire du chocolat à partir de cacao brut, récolté à partir de cacaoyers.</Make_Chocolate.description>
+		<Make_Chocolate.jobString>fait du chocolat.</Make_Chocolate.jobString>
+
+		<Make_MilkChocolate.label>faire du chocolat au lait</Make_MilkChocolate.label>
+		<Make_MilkChocolate.description>Faire du chocolat à partir de cacao brut, récolté à partir de cacaoyers, et de lait.</Make_MilkChocolate.description>
+		<Make_MilkChocolate.jobString>fait du chocolat au lait.</Make_MilkChocolate.jobString>
+	</LanguageData>
